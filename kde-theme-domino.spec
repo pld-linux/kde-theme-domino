@@ -39,12 +39,12 @@ Domino is a style with a soft look. It allows to fine adjust the
 shininess of the widgets by customizable color gradients.
 
 %description -n kde-style-%{_name} -l pl.UTF-8
-Domino jest stylem o miêkkim wygl±dzie. Umo¿liwia dopieszczenie
-jasno¶ci widgetów dziêki configurowalnym gradientom.
+Domino jest stylem o miÄ™kkim wyglÄ…dzie. UmoÅ¼liwia dopieszczenie
+jasnoÅ›ci widgetÃ³w dziÄ™ki configurowalnym gradientom.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
-Summary(pl.UTF-8):	Schemat kolor??w do stylu KDE - %{_name}
+Summary(pl.UTF-8):	Schemat kolorÃ³w do stylu KDE - %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
@@ -52,7 +52,7 @@ Requires:	kdebase-core
 Color scheme for KDE style - %{_name}.
 
 %description -n kde-colorscheme-%{_name} -l pl.UTF-8
-Schemat kolor??w do stylu KDE - %{_name}.
+Schemat kolorÃ³w do stylu KDE - %{_name}.
 
 %package -n kde-decoration-%{_name}
 Summary:	Kwin decoration - %{_name}
