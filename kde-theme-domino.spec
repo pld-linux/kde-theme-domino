@@ -2,7 +2,7 @@
 %define         _name domino
 
 Summary:	KDE theme - %{_name}
-Summary(pl.UTF-8):	Motyw do KDE - %{_name}
+Summary(pl):	Motyw do KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	0.4
 Release:	1
@@ -25,12 +25,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_name} KDE theme.
 
-%description -l pl.UTF-8
+%description -l pl
 Motyw KDE %{_name}.
 
 %package -n kde-style-%{_name}
 Summary:	KDE style - %{_name}
-Summary(pl.UTF-8):	Styl do KDE - %{_name}
+Summary(pl):	Styl do KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -38,32 +38,32 @@ Requires:	kdelibs
 Domino is a style with a soft look. It allows to fine adjust the
 shininess of the widgets by customizable color gradients.
 
-%description -n kde-style-%{_name} -l pl.UTF-8
+%description -n kde-style-%{_name} -l pl
 Domino jest stylem o miêkkim wygl±dzie. Umo¿liwia dopieszczenie
 jasno¶ci widgetów dziêki configurowalnym gradientom.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
-Summary(pl.UTF-8):	Schemat kolor??w do stylu KDE - %{_name}
+Summary(pl):	Schemat kolorów do stylu KDE - %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
 %description -n kde-colorscheme-%{_name}
 Color scheme for KDE style - %{_name}.
 
-%description -n kde-colorscheme-%{_name} -l pl.UTF-8
-Schemat kolor??w do stylu KDE - %{_name}.
+%description -n kde-colorscheme-%{_name} -l pl
+Schemat kolorów do stylu KDE - %{_name}.
 
 %package -n kde-decoration-%{_name}
 Summary:	Kwin decoration - %{_name}
-Summary(pl.UTF-8):	Dekoracja kwin - %{_name}
+Summary(pl):	Dekoracja kwin - %{_name}
 Group:		Themes
 Requires:	kdebase-desktop-libs
 
 %description -n kde-decoration-%{_name}
 Kwin decoration - %{_name}.
 
-%description -n kde-decoration-%{_name} -l pl.UTF-8
+%description -n kde-decoration-%{_name} -l pl
 Dekoracja kwin - %{_name}.
 
 %prep
@@ -75,7 +75,7 @@ Dekoracja kwin - %{_name}.
 cp -f /usr/share/automake/config.sub admin
 %{__make} -f admin/Makefile.common cvs
 
-%configure \
+%configure 
 %if "%{_lib}" == "lib64"
 	--enable-libsuffix=64 \
 %endif
