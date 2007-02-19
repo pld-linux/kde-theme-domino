@@ -17,9 +17,9 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.5.0
 BuildRequires:	rpmbuild(macros) >= 1.129
+Requires:	kde-colorscheme-%{_name}
 Requires:	kde-decoration-%{_name}
 Requires:	kde-style-%{_name}
-Requires:	kde-colorscheme-%{_name}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,7 +38,9 @@ Requires:	kdelibs
 Domino is a style with a soft look. It allows to fine adjust the
 shininess of the widgets by customizable color gradients.
 
-#%description -n kde-style-%{_name} -l pl.UTF-8
+%description -n kde-style-%{_name} -l pl.UTF-8
+Domino jest stylem o miêkkim wygl±dzie. Umo¿liwia dopieszczenie
+jasno¶ci widgetów dziêki configurowalnym gradientom.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
