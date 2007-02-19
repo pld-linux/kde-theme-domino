@@ -1,8 +1,8 @@
 
 %define         _name domino
 
-Summary:	KDE style - %{_name}
-Summary(pl.UTF-8):	Styl do KDE - %{_name}
+Summary:	KDE theme - %{_name}
+Summary(pl.UTF-8):	Motyw do KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	0.4
 Release:	1
