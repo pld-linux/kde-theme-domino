@@ -75,7 +75,7 @@ Dekoracja kwin - %{_name}.
 cp -f /usr/share/automake/config.sub admin
 %{__make} -f admin/Makefile.common cvs
 
-%configure 
+%configure \
 %if "%{_lib}" == "lib64"
 	--enable-libsuffix=64 \
 %endif
