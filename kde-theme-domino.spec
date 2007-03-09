@@ -40,7 +40,7 @@ shininess of the widgets by customizable color gradients.
 
 %description -n kde-style-%{_name} -l pl.UTF-8
 Domino jest stylem o miękkim wyglądzie. Umożliwia dopieszczenie
-jasności widgetów dzięki configurowalnym gradientom.
+jasności widgetów dzięki konfigurowalnym gradientom.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
