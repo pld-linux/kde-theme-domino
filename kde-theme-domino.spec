@@ -15,6 +15,7 @@ Patch1:		kde-ac260-lt.patch
 URL:		http://www.kde-look.org/content/show.php?content=42804
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	kdebase-devel >= 9:3.5.0
 BuildRequires:	kdelibs-devel >= 9:3.5.0
 BuildRequires:	rpmbuild(macros) >= 1.129
 Requires:	kde-colorscheme-%{_name}
