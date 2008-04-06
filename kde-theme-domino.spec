@@ -5,7 +5,7 @@ Summary:	KDE theme - %{_name}
 Summary(pl.UTF-8):	Motyw do KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://kde-apps.org/CONTENT/content-files/42804-%{_name}-%{version}.tar.bz2
